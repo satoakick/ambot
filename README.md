@@ -18,6 +18,7 @@ bundle exec ruboty -l ambot.rb
  cd python
  python app.py
  ```
+ - tornadoのソースは[japanese_talk_api](https://github.com/Drunkar/japanese_talk_api)から拝借
 
 - その他  
  - ruby/scraping/main_sample.rbは chainer-char-rnnに食わせるデータを作るための[nokogiri](http://www.nokogiri.org/)と[anemone](http://anemone.rubyforge.org/)を使ったサンプルソース
