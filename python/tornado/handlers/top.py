@@ -13,7 +13,7 @@ app_log = logging.getLogger("tornado")
 class TopHandler(BaseHandler):
 
     vocabulary = settings.path(settings.ROOT, "models", "vocab.bin")
-    model      = settings.path(settings.ROOT, "models", "charrnn_epoch_0.90.chainermodel")
+    model      = settings.path(settings.ROOT, "models", "example.chainermodel")
     #print("vocabulary: "+ vocabulary)
     #print("model: "+model)
     VOCAB = pickle.load(open(vocabulary, 'rb'))
